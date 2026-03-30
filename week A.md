@@ -65,9 +65,9 @@ If you use supera.sh then....
 | Machine Proof | ``curl ``-s ``localhost/healthz`` | ``ok`` |
 | Engineer Proof | `curl -s localhost/metadata | jq .` | Valid JSON | 
 
-Beautiful — that output means your **Engineer Proof is officially PASSED**.
 
-Here’s what your VM just proved:
+
+This shows what my VM just proved:
 
 ```json
 {
@@ -77,11 +77,11 @@ Here’s what your VM just proved:
 }
 ```
 
-That’s exactly the structured JSON the lab expects. Your metadata endpoint is working, NGINX is serving it correctly, and `jq` is parsing it cleanly. Nicely done.
+That’s exactly the structured JSON the lab expects. My metadata endpoint is working, NGINX is serving it correctly, and `jq` is parsing it cleanly. Nicely done.
 
-If your `/healthz` endpoint is also returning the expected value, then both validation checks are complete and your lab environment is fully operational.
+If my `/healthz` endpoint is also returning the expected value, then both validation checks are complete and your lab environment is fully operational.
 
-If you want to keep leveling this up — maybe automate these endpoints in your startup script, add versioning, or build out the next mission — I’m ready to help you push it further.
+If I want to keep leveling this up — maybe automate these endpoints in your startup script, add versioning, or build out the next mission — 
 
 
 
