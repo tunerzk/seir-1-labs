@@ -7,6 +7,9 @@ Open VS Code.
 Open the terminal in VS Code.
 Use pwd to make sure you are in the right folder.
 Run this command to download the needed assets: curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-7/bam/download-assets.sh | sh
+<img width="718" height="440" alt="image" src="https://github.com/user-attachments/assets/63ac4c8c-0326-4cf5-9c01-e6b37308b797" />
+
+
 Make your provider.tf, backend.tf, and such as we have done in class.
 Make a basic bucket in a main.tf file (or whatever you call it).
 Make sure it works.
