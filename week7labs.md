@@ -5,6 +5,8 @@ Navigate to where you want to do this project.
 Make a folder for it if needed. This folder cannot be inside an existing local Git repo.
 Open VS Code.
 Open the terminal in VS Code.
+<img width="1612" height="923" alt="image" src="https://github.com/user-attachments/assets/ea111353-9576-48fe-b9eb-16d3b7c32cbd" />
+
 Use pwd to make sure you are in the right folder.
 Run this command to download the needed assets: curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-7/bam/download-assets.sh | sh
 <img width="739" height="250" alt="image" src="https://github.com/user-attachments/assets/1de940d6-d0e3-4f25-8c36-103548845497" />
