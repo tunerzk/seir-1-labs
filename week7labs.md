@@ -23,6 +23,8 @@ Assets provided: The 3 assets (the HTML files and the CSS file) are provided, so
 <img width="1843" height="930" alt="image" src="https://github.com/user-attachments/assets/aa9f529e-0362-4483-bd1b-315802c4abc2" />
 <img width="1889" height="882" alt="image" src="https://github.com/user-attachments/assets/aa9e034a-c3b1-4d86-b277-7bfee213f9e2" />
 <img width="1654" height="621" alt="image" src="https://github.com/user-attachments/assets/517e3366-689d-4546-ac13-738ddc657460" />
+<img width="1871" height="959" alt="image" src="https://github.com/user-attachments/assets/14cf69f4-e040-43f7-a8be-bdcbc55283e3" />
+
 
 
 
