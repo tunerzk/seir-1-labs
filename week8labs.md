@@ -1,9 +1,19 @@
 The goal is to create a managed instance group and regional external application load balancer.
+A Regional External Application Load Balancer in Google Cloud works like this:
+
+Client → Forwarding Rule → Envoy Proxy (Proxy‑only Subnet) → URL Map → Backend Service → Managed Instance Group
 
 Load Balancing: A process to distribute network traffic across multiple servers (VMs)
 Proxy: an intermediary between a client and destination server that forwards web requests
 Autoscaling: a key concept in cloud computing that uses a tool called health checks that probes servers to ensure they are running properly and if not terminates the instance and creates a new one
 Autohealing: a key concept in cloud computing that automatically adds or removes servers based on some metric
+
+The backend VMs never receive traffic directly from the internet.
+They only receive traffic from the Envoy proxy, which lives in a proxy‑only subnet.
+This means:
+Your backend firewall rules must allow traffic from the proxy subnet, not from 0.0.0.0/0
+The proxy subnet is required for external HTTP(S) load balancers
+The Envoy proxy handles all request processing before forwarding to your backend
 
 
 Deliverables:
